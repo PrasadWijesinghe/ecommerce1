@@ -69,10 +69,10 @@ const Navbar = () => {
 
                 {/* Mobile Menu Items */}
                 <div className='flex flex-col text-gray-600'>
-                    <NavLink className='py-2 pl-6 border' to='/'>HOME</NavLink>
-                    <NavLink className='py-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
-                    <NavLink className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
-                    <NavLink className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
+                    <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/'>HOME</NavLink>
+                    <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/collection'>COLLECTION</NavLink>
+                    <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/about'>ABOUT</NavLink>
+                    <NavLink onClick={()=>setVisible(false)} className='py-2 pl-6 border' to='/contact'>CONTACT</NavLink>
                 </div>
             </div>
         </div>
