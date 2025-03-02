@@ -87,7 +87,7 @@ const ShopContextProvider = (props) => {
         addToCart,
         getCartCount,
         updateQuantity,
-        getCartAmount // ✅ Now included
+        getCartAmount 
     };
 
     return (
