@@ -29,9 +29,14 @@ const Orders = () => {
                     </div>
                     <p> Date:<span className='text-gray-400' >25,June </span> </p>
                 </div>
-                </div>
+           
 
-                
+             </div>
+
+
+
+
+
               ))
             }
         </div>
