@@ -26,7 +26,7 @@ const SearchBar = () => {
                     onClick={() => setShowSearch(false)} 
                     className='inline w-3 cursor-pointer' 
                     src={assets.cross_icon} 
-                    alt="Close Search" 
+                    alt="Close" 
                 />
             </div>
         </div>
